@@ -1,21 +1,39 @@
-<html>
-<head>
-</head>
-<title>
-</title>
-<script>
-alert ("Welcome to my form website, Stay tuned for more updates :D")
-</script>
-<center>
-Username <input type="text"><br><br>
-Password <input type="password"><br><br>
-Age <input type="text"><br><br>
-Male <input type="radio" name="a"><br><br>
-Female <input type="radio" name="a"><br><br>
-Choose Your Language:<br><br>
-English <input type="checkbox"><br><br>
-German <input type="checkbox"><br><br>
-Spanish <input type="checkbox"><br><br>
-<input type="submit">
-</center>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="form.html" />
+    <title>Form.html</title>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <center>
+        <h1>Form.html</h1>
+
+        <h3>Essential Informations</h3>
+        Username <input 
+            type="text" 
+            placeholder="your username" 
+            id="username_form" />
+        <br /><br />
+        Password <input 
+            type="password"
+            placeholder="your password"
+            id="password_form" />
+        <br /><br />
+        Age <input type="text" placeholder="your age" id="age_form" /><br /><br />
+
+        <h3>Choose Your Gender</h3>
+        Male <input type="radio" name="m" placeholder="Gender Male" /><br /><br />
+        Female <input type="radio" name="f" placeholder="Gender Female" /><br /><br />
+
+        <h3>Choose Your Language</h3>:<br />
+        English <input type="checkbox" placeholder="Language: English" /><br /><br />
+        German <input type="checkbox" placeholder="Language: German" /><br /><br />
+        Spanish <input type="checkbox" placeholder="Language: Spanish" /><br /><br />
+
+        <input type="submit" id="submit_btn" />
+      </center>
+  </body>
 </html>
